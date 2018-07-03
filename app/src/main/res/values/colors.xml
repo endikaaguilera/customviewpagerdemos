@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <!--<color name="indicatorNormal">#ffffff</color>-->
+    <!--<color name="indicatorPressed">#ffffff</color>-->
+    <!--<color name="indicatorSelected">#ffffff</color>-->
+</resources>
