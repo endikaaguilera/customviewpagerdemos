@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.thisobeystudio.customviewpager.viewpager.CustomViewPager;
 import com.thisobeystudio.customviewpagerdemos.R;
+import com.thisobeystudio.customviewpagerdemos.ZoomOutPageTransformer;
 
 import static com.thisobeystudio.customviewpager.indicator.CustomIndicator.MODE_CLAMPED_HEIGHT;
 import static com.thisobeystudio.customviewpager.indicator.CustomIndicator.POSITION_FLOAT_BOTTOM;
@@ -60,6 +61,8 @@ public class ComplexActivity extends AppCompatActivity {
 
         // Set initial selection
         customViewPager.setCurrentItem(0);
+
+        customViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
 
     // region helper methods to share scroll pos between real and helper pages
